@@ -1,0 +1,121 @@
+.footer {
+    background: #1E3A8ACC;
+    color: #dbe7ff;
+    margin-top: 50px;
+}
+
+.footer-up-part {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fo-head {
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 30px 5px 5px 5px;
+}
+
+.fo-text {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 3px 2px 2px 2px;
+    width: 320px;
+    line-height: 30px;
+}
+
+.footer-home {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+
+.footer-home img {
+    width: 32px;
+    height: 32px;
+    color: white;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links a {
+    color: #fff;
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+.footer-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: 500px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+    }
+
+    .footer-wrapper  input {
+      width: 100%;
+      padding: 14px 220px 14px 16px;
+      border-radius: 999px;
+      border: 1px solid #ccc;
+      outline: none;
+      font-size: 16px;
+      background-color: #D9D9D9;
+    }
+
+    .footer-wrapper button {
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      bottom: 4px;
+      padding: 0 24px;
+      border: none;
+      border-radius: 34px;
+      background: #1E3A8A;
+      color: white;
+      font-size: 15px;
+      cursor: pointer;
+      transition: background 0.3s;
+     
+}
+
+    .footer-wrapper button:hover {
+      background: #1E3A8A;
+    }
+  @media (max-width: 400px) {
+      .footer-wrapper input {
+        padding-right: 70px !important;
+      }
+      .footer-wrapper button {
+        font-size: 14px;
+        padding: 0 16px;
+      }
+    }
+@media (max-width:768px) {
+   .footer-wrapper  input {
+      width: 100%;
+      padding: 12px 100px 12px 12px;
+    }
+  .fo-text {
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+  }
+  .fo-head {
+    font-size: 24px;
+  }
+    .wrap {
+        flex-direction: column;
+        gap: 8px;
+    }
+}

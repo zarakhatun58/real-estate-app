@@ -1,0 +1,117 @@
+.pcard {
+    border: 1px solid #e6eefc;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #F1F1F1;
+}
+
+.pcard__img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+}
+
+.pcard__body p {
+    font-size: 14px;
+    color: #1E1E1E;
+    padding: 0px 0px 10px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.badge {
+    padding: 6px 8px;
+    border-radius: 999px;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.badge.sale {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.badge.rent {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.meta {
+    color: #475569;
+    font-size: 13px;
+    margin: 8px 0;
+}
+
+.price {
+    color: #0b2e6b;
+    font-weight: 800;
+}
+
+.location-part {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+
+.rating-text {
+    font-size: 12px;
+    color: #979797;
+    padding-left: 5px;
+}
+
+.country-part {
+    display: flex;
+}
+
+.property-part {
+    padding: 10px;
+}
+
+.map-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.location-text {
+    color: #979797;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.rating-part {
+    display: flex;
+    align-items: center;
+}
+.buy-now-btn {
+    background-color: #1d2a78;
+    color: white;
+    padding: 9px 20px;
+    border: none;
+    font-weight: 600;
+    border-radius: 31px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.price-t{
+    font-size: 18px;
+    color: #222222;
+    font-weight: 400;
+}
+.property-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}

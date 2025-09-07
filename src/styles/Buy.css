@@ -1,0 +1,174 @@
+.buy-container {
+    background-color: #ffffff;
+    padding: 50px;
+
+}
+
+.feature-main {
+    margin-top: 100px;
+}
+
+.feature-text {
+    font-size: 40px;
+    color: #1E3A8A;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.project-btn {
+    border: 1px solid #1E3A8A;
+    color: #1E3A8A;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 24px;
+    width: 180px;
+    height: 30px;
+}
+
+.porject-text {
+    font-size: 12px;
+    color: #1E3A8A;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.arrow {
+    width: 10px;
+    margin-right: 10px;
+}
+
+.property-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.property-secondary {
+    width: 45%;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.property-img {
+    width: 100%;
+    height: 400px;
+    border-radius: 24px;
+}
+
+.address-card {
+    box-shadow: 4px 4px 12px 0px #00000029;
+    border-radius: 20px;
+    background-color: #ffffff;
+    width: 80%;
+    padding: 15px;
+    position: absolute;
+    bottom: -30%;
+    left: 10%;
+}
+
+.map-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.greenvila-text {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px;
+
+}
+
+.desc {
+    font-size: 16px;
+    text-align: left;
+    color: #555555;
+}
+
+.know-more-part {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.know-more-btn {
+    background-color: #1E3A8A;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 31px;
+    padding: 5px 10px;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 768px) {
+    .desc {
+        font-size: 12px;
+    }
+
+    .icons {
+        width: 20px;
+        height: 20px;
+    }
+
+    .greenvila-text {
+        font-size: 14px;
+    }
+
+    .address-card {
+        width: 80%;
+        padding: 10px;
+        bottom: -30%;
+        left: 10%;
+    }
+
+    .property-secondary {
+        width: 100%;
+        margin-bottom: 90px;
+    }
+
+    .property-main {
+        flex-direction: column;
+    }
+
+    .header {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80px;
+    }
+
+    .feature-text {
+        font-size: 20px;
+    }
+
+    .buy-container {
+        padding: 0px;
+
+    }
+
+    .header {
+        flex-direction: column;
+    }
+}

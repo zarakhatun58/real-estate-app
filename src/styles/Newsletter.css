@@ -1,0 +1,46 @@
+.newsletter {
+    background: #eef2ff;
+    border-radius: 12px;
+    padding: 18px;
+    border: 1px solid #c7d2fe;
+    margin: 24px 0;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.form {
+    display: flex;
+    gap: 8px;
+}
+
+.form input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+}
+
+.form button {
+    background: #0b2e6b;
+    color: #fff;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+
+@media(max-width:768px) {
+    .inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form {
+        width: 100%;
+    }
+}
