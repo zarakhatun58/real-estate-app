@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import Hero from '../components/ui/Hero';
 import WhatWeDo from '../components/WhatWeDo';
-import Newsletter from '../components/Newsletter';
 import PropertyCard from '../components/ui/PropertyCard';
 import { fetchProperties } from '../services/api';
 import '../styles/Home.css';
@@ -86,7 +85,7 @@ export default function Home() {
         <section>
           <LatestProperties />
         </section>
-        <Newsletter />
+       
       </div>
     </div>
   );
