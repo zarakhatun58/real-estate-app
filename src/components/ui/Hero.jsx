@@ -1,4 +1,4 @@
-// src/components/Hero.jsx
+
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import "../../styles/Hero.css";
@@ -17,12 +17,6 @@ const [filters, setFilters] = useState({ purpose: "buy", category: "", country: 
   const [countries, setCountries] = useState([]);
   const [categories, setCategories] = useState([]);
 
-  // const [filters, setFilters] = useState({
-  //   purpose: "buy",
-  //   category: "",
-  //   country: "",
-  //   city: ""
-  // });
 
   useEffect(() => {
     fetchProperties()

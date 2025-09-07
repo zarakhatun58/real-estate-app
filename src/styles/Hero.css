@@ -1,4 +1,4 @@
-/* src/styles/Hero.css */
+
 
 .hero {
     position: relative;
@@ -9,7 +9,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-/* Banner */
 .hero__img {
     position: absolute;
     inset: 0;
@@ -20,7 +19,6 @@
     border-radius: 12px;
 }
 
-/* subtle overlay */
 .hero__overlay {
     position: absolute;
     inset: 0;
@@ -29,7 +27,6 @@
     pointer-events: none;
 }
 
-/* Top centered title */
 .hero__content {
     position: absolute;
     top: 28px;
@@ -70,7 +67,6 @@
     text-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
 }
 
-/* ===== Search Card: absolute, height 80px, half outside banner ===== */
 .hero__search-card {
     position: absolute;
     left: 50%;
@@ -109,7 +105,6 @@
     box-sizing: border-box;
 }
 
-/* Left: location input area (input height = 50px) */
 .search-left {
     display: flex;
     align-items: center;
@@ -129,7 +124,6 @@
     left: 4%;
 }
 
-/* Input height 50px as requested */
 .location-input {
     height: 46px;
     padding: 0px 13px 0px 36px;
@@ -142,7 +136,6 @@
     background: #ffffff;
 }
 
-/* Search icon inside input (right) */
 .location-search-btn {
     margin-left: 8px;
     color: gray;
@@ -154,7 +147,6 @@
     right: 1%;
 }
 
-/* Middle area: compact selects + Find button */
 .search-middle {
     display: flex;
     align-items: center;
@@ -175,7 +167,6 @@
     box-sizing: border-box;
 }
 
-/* small select inside chip (compact) */
 .filter select {
     border: none;
     outline: none;
@@ -184,13 +175,11 @@
     color: #1E1E1E;
 }
 
-/* compact icon */
 .filter-icon {
     color: #6b7280;
     font-size: 14px;
 }
 
-/* Find Property button (inside card) */
 .find-btn {
     background: #1E3A8A;
     color: white;
@@ -224,8 +213,6 @@ select {
   white-space: nowrap;
   overflow: hidden;
 }
-
-/* ===== Responsive: stack on small screens ===== */
 @media (max-width: 920px) {
     .hero__title {
         font-size: 28px;
@@ -237,12 +224,10 @@ select {
 
     .hero__search-card {
         height: auto;
-        /* allow more space on smaller screens */
         flex-direction: column;
         align-items: stretch;
         padding: 14px;
         bottom: -80px;
-        /* more overlap */
     }
 
     .search-left {
@@ -278,8 +263,6 @@ select {
     }
 }
 
-
-/* very small devices */
 @media (max-width: 420px) {
     .filter {
         min-width: 100%;
@@ -302,20 +285,17 @@ select {
     }
 }
 
-/* Tablets (max-width: 768px) */
 @media (max-width: 768px) {
     .hero__search-card {
         width: 95% !important;
         max-width: none !important;
         flex-direction: column;
-        /* stack vertically */
         align-items: stretch;
         height: auto;
         padding: 16px;
         gap: 14px;
     }
 
-    /* block 1: search left full width */
     .search-left {
         min-width: 260px;
         margin-bottom: 8px;
@@ -325,7 +305,6 @@ select {
         width: 100%;
     }
 
-    /* block 2: filters + find button */
     .search-middle {
         width: 100%;
         display: flex;
@@ -345,7 +324,6 @@ select {
         text-align: center;
     }
 
-    /* block 3: list property button */
     .search-right {
         width: 100%;
         display: flex;
@@ -358,7 +336,6 @@ select {
     }
 }
 
-/* Phones (max-width: 480px) */
 @media (max-width: 480px) {
     .hero__search-card {
         width: 100% !important;

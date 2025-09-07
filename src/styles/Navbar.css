@@ -40,7 +40,6 @@
 }
 
 
-/* Menu */
 .nav__menu {
     display: flex;
     gap: 14px;
@@ -70,7 +69,6 @@
     text-decoration: underline;
 }
 
-/* Auth area */
 .auth-inner-part {
     display: flex;
     align-items: center;
@@ -98,7 +96,6 @@
     ;
 }
 
-/* Hamburger Button */
 .hamburger {
     display: none;
     flex-direction: column;
@@ -128,7 +125,6 @@
 
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .about-navbar{
         height:auto;

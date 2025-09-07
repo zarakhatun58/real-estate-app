@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9c9cc89f.css",
+    "main.js": "/static/js/main.6dcd93a7.js",
+    "static/media/auth-banner.png": "/static/media/auth-banner.963539a8352453e244b9.png",
+    "static/media/dream-home.png": "/static/media/dream-home.f05a1a2b583594083bf5.png",
+    "static/media/banner.png": "/static/media/banner.df2ff34c2967ab993ba0.png",
+    "static/media/feature2.png": "/static/media/feature2.09f9ceef08e73aa046bb.png",
+    "static/media/feature1.png": "/static/media/feature1.1c10066d73bf49751ca4.png",
+    "static/media/residence1.png": "/static/media/residence1.b63203f5e915b20a5b50.png",
+    "static/media/latest-house1.png": "/static/media/latest-house1.ded656e51d2126cbfc64.png",
+    "static/media/latest-house2.png": "/static/media/latest-house2.d70f5c0cda70bcabcbba.png",
+    "static/media/residence2.png": "/static/media/residence2.3a7fdd2c4a2364878803.png",
+    "static/media/residence3.png": "/static/media/residence3.9f2370f1fb027f6e5d7a.png",
+    "static/media/residence4.png": "/static/media/residence4.5f24b4e885e7ef764fed.png",
+    "static/media/budget.svg": "/static/media/budget.e3903e03b25de67822a73944d1cf72c9.svg",
+    "static/media/trust.svg": "/static/media/trust.34d47f6a3d507ebad72e5af9670cdb9f.svg",
+    "static/media/logout.svg": "/static/media/logout.50490dca6857d7a382986642676fae88.svg",
+    "index.html": "/index.html",
+    "main.9c9cc89f.css.map": "/static/css/main.9c9cc89f.css.map",
+    "main.6dcd93a7.js.map": "/static/js/main.6dcd93a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c9cc89f.css",
+    "static/js/main.6dcd93a7.js"
+  ]
+}
