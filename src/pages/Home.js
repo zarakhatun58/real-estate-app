@@ -11,6 +11,7 @@ import PropertyHeader from '../components/ui/PropertyHeader';
 import Form from '../components/ui/Form';
 import LatestProperties from '../components/LatestProperties';
 
+
 export default function Home() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -69,7 +70,7 @@ export default function Home() {
           ) : (
             <div className="p-card-grid">
               {featured.map((i) => (
-                <PropertyCard key={i.id} item={i} />
+                <PropertyCard key={i.id} item={i} isMonthly />
               ))}
             </div>
           )}

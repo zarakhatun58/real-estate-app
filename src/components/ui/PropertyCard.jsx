@@ -2,12 +2,23 @@ import React from 'react';
 import '../../styles/PropertyCard.css';
 import map from "../../assets/map-icon.png";
 import ratingIcon from "../../assets/rating-icon.png";
+import defaultImage from "../../assets/feature2.png"
 
-const PropertyCard = ({ item }) => {
+const PriceTag = ({ price, fallback = 0, isMonthly = false }) => {
+  return (
+    <span className="price-t">
+      ${Number(price || fallback).toLocaleString()}
+      {isMonthly && "/month"}
+    </span>
+  );
+};
+const PropertyCard = ({ item,isMonthly = false  }) => {
   const { image, name,buildingNumber,cardinalDirection,city, country, countryCode, rating, price,id } = item;
+  
+  
   return (
     <div className="pcard">
-      <img src={image} alt={name} className="pcard__img" />
+      <img src={image || defaultImage} alt={name} className="pcard__img" onError={(e) => { e.target.src = defaultImage; }}/>
       <div className="property-part">
         <div className='location-part'>
           <div className='country-part'>
@@ -22,7 +33,7 @@ const PropertyCard = ({ item }) => {
 
         <div className="property-bottom">
           <button type="submit" className="buy-now-btn">Buy Now</button>
-          <span className="price-t">    ${Number(price || 4500000).toLocaleString()}</span>
+           <PriceTag price={price} fallback={isMonthly ? 1600 : 4500000} isMonthly={isMonthly} />
         </div>
       </div>
     </div>

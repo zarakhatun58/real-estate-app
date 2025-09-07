@@ -103,7 +103,7 @@ label {
     color: #454343;
     font-size: 16px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .auth-banner {
@@ -127,6 +127,7 @@ label {
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
+    margin-top: 20px;
 }
 
 .forgot-text {
@@ -171,6 +172,7 @@ label {
     justify-content: space-between;
     width: 200px;
     margin: auto;
+    padding-top: 30px;
 }
 .or-text{
     font-size: 16px;
@@ -197,6 +199,9 @@ label {
 
 /* Mobile */
 @media (max-width: 576px) {
+    .social-part {
+    padding-top: 5px;
+    }
     .or-text{
     font-size: 12px;
 }
@@ -204,7 +209,7 @@ label {
     width: 50px;
 }
     .reset-password-box {
-        flex-direction: column;
+       flex-direction: row;
         width: auto;
     }
 
@@ -230,5 +235,6 @@ label {
 
     .muted {
         font-size: 14px;
+        margin-top: 20px;
     }
 }

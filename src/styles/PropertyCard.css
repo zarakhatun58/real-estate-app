@@ -20,6 +20,7 @@
     padding: 0px 0px 10px 0px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    height: 50px;
 }
 
 .row {
@@ -105,7 +106,7 @@
     transition: 0.3s;
 }
 .price-t{
-    font-size: 18px;
+    font-size: 16px;
     color: #222222;
     font-weight: 400;
 }

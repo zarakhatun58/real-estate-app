@@ -316,7 +316,7 @@ select {
     .filter {
         flex: 1 1 48%;
         min-width: auto;
-        padding: 10px 16px;
+        padding: 10px 7px;
     }
 
     .find-btn {
