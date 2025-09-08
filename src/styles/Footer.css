@@ -1,5 +1,5 @@
 .footer {
-  background: #1E3A8ACC;
+  background-color: #1E3A8ACC;
   color: #dbe7ff;
   margin-top: 50px;
 }
@@ -19,11 +19,11 @@
 }
 
 .fo-text {
-  font-size: 20px;
+  font-size: 32px;
   color: #ffffff;
-  margin: 3px 2px 2px 2px;
-  width: 320px;
+  max-width: 480px;
   line-height: 30px;
+  letter-spacing: 1px;
 }
 
 .footer-home {
@@ -32,6 +32,7 @@
   justify-content: space-between;
   align-items: center;
   font-weight: 700;
+  gap: 10px;
 }
 
 .footer-home img {
@@ -41,7 +42,7 @@
 }
 
 .wrap {
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: 20px;
   display: flex;
@@ -51,22 +52,22 @@
 
 .links a {
   color: #fff;
-  margin-left: 12px;
+ padding-left: 15px;
   text-decoration: none;
 }
 
 .footer-wrapper {
   position: relative;
   width: 100%;
-  max-width: 500px;
-  margin-top: 20px;
+  max-width: 570px;
+  margin-top: 30px;
   margin-bottom: 50px;
 }
 
 .footer-wrapper input {
   width: 100%;
-  padding: 14px 220px 14px 16px;
-  border-radius: 999px;
+    padding: 10px 10px 10px 25px;
+  border-radius: 34px;
   border: 1px solid #ccc;
   outline: none;
   font-size: 16px;
@@ -75,10 +76,10 @@
 
 .footer-wrapper button {
   position: absolute;
-  top: 4px;
-  right: 4px;
-  bottom: 4px;
-  padding: 0 24px;
+  top: 7px;
+  right: 7px;
+  bottom: 6px;
+  padding: 0 25px;
   border: none;
   border-radius: 34px;
   background: #1E3A8A;
@@ -94,9 +95,7 @@
 }
 
 @media (max-width: 400px) {
-  .footer-wrapper input {
-    padding-right: 70px !important;
-  }
+ 
 
   .footer-wrapper button {
     font-size: 14px;
@@ -105,13 +104,16 @@
 }
 
 @media (max-width:768px) {
+  
   .footer-wrapper {
-    margin-top: 2px;
+   width: auto;
+    min-width: 280px;
+   margin-top: 2px;
     margin-bottom: 2px;
 }
+
   .footer-wrapper input {
     width: 100%;
-    padding: 6px 70px 6px 6px;
     font-size: 12px;
   }
 
@@ -123,18 +125,20 @@
 
   .fo-head {
     font-size: 24px;
-        margin: 20px 5px 5px 5px;
+    margin: 20px 5px 5px 5px;
   }
 
   .wrap {
     flex-direction: column;
     gap: 8px;
   }
+
   .links a {
     font-size: 12px;
-}
-.footer {
-     margin-top: 1px;
-}
+  }
+
+  .footer {
+    margin-top: 1px;
+  }
 
 }

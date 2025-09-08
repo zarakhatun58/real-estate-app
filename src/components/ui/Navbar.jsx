@@ -40,9 +40,10 @@ export default function Navbar() {
                 <div className="auth-inner-part">
                   <NavLink to="/login" className="login__link">Login</NavLink> /
                   <NavLink to="/signup" className="login__link">Register</NavLink>
-                  <span className="login__link" onClick={logout}>
+                  {user && ( <span className="login__link" onClick={logout}>
                     <img src={logoutIcon} alt="logout" style={{ paddingTop: "5px" }} />
                   </span>
+                   )}
                 </div>
               </div>
 

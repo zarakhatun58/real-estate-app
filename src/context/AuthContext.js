@@ -23,6 +23,7 @@ export function AuthProvider({ children }){
 
   const logout = async () => {
     await signOut(auth);
+    alert("logout successfull")
   };
 
   return (

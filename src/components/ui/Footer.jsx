@@ -8,11 +8,9 @@ export default function Footer() {
       <div className='footer-up-part'>
         <h4 className='fo-head'>Get in Touch with Us</h4>
         <p className='fo-text'>Subscribe now for exclusive property insights and deals!</p>
-        <form>
-          <div className="footer-wrapper">
+        <form className="footer-wrapper">
             <input type="email" placeholder="Enter your email" required />
               <button type="submit">Submit</button>
-          </div>
         </form>
       </div>
       <div className="wrap">
@@ -22,9 +20,8 @@ export default function Footer() {
           <a href="#">Rentals</a>
           <a href="#">New Projects</a>
           <a href="#">Property News</a>
-          <a href="#">Terms</a>
         </div>
-        <div>© {new Date().getFullYear()} PropBot. All rights reserved.</div>
+        <div>©2025 PropBot. All rights reserved</div>
 
       </div>
     </footer>

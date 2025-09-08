@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import Listings from './pages/Listings';
 import Login from './pages/Login';
@@ -11,6 +11,8 @@ import Footer from './components/ui/Footer';
 
 export default function App(){
   const { user } = useAuth();
+  const location = useLocation();
+   const hideFooter = location.pathname === "/login" || location.pathname === "/signup";
   return (
     <div className="app">
       <Navbar />
@@ -24,7 +26,7 @@ export default function App(){
           <Route path="*" element={<Navigate to='/' />} />
         </Routes>
       </main>
-      <Footer />
+        {!hideFooter && <Footer />}
     </div>
   );
 }
