@@ -46,3 +46,5 @@ Screenshots
 ![Login Screenshot](/screenshots/login-page.png)
 ![Home Screenshot](/screenshots/home-page.png)
 ![Buy Screenshot](/screenshots/buy-page.png)
+
+### live site link : https://real-estate-987.netlify.app/

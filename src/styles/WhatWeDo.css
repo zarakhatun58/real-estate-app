@@ -73,6 +73,10 @@
 }
 
 @media(max-width:900px) {
+    .wwd {
+    padding: 0px 0px;
+     margin: 1px 0px;
+}
     .wwd h2 {
     font-size: 20px;
         margin: 40px 0px 10px 0px;
@@ -86,6 +90,7 @@
 }
 
 @media(max-width:520px) {
+
     .card-main-container {
         grid-template-columns: 1fr;
     }

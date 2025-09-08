@@ -20,7 +20,6 @@ export default function Home() {
       .then(setData).catch(e => setError(e.message))
       .finally(() => setLoading(false))
   }, []);
-  // const featured = useMemo(() => data.slice(0, 3), [data]);
   const featured = useMemo(() => data.slice(0, 4), [data]);
   const sale = useMemo(() => data.filter(d => d.listingType === 'sale').slice(0, 4), [data]);
   const rent = useMemo(() => data.filter(d => d.listingType === 'rent').slice(0, 6), [data]);
@@ -85,7 +84,6 @@ export default function Home() {
         <section>
           <LatestProperties />
         </section>
-       
       </div>
     </div>
   );
